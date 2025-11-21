@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- ===== معلومات الصفحة الأساسية - Page Information ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="تواصل مع مدرسة الفيوم الثانوية للبنات، نحن هنا للإجابة على جميع استفساراتك واستقبال ملاحظاتك">
+    <meta name="keywords" content="اتصل بنا، تواصل، استفسارات، مدرسة الفيوم الثانوية للبنات">
+    <meta  name="author" content="مدرسة الفيوم الثانوية للبنات">
+
+    <!-- ===== عنوان الصفحة - Page Title ===== -->
+    <title>اتصل بنا - مدرسة الفيوم الثانوية للبنات</title>
+
+    <!-- ===== الخطوط الخارجية - External Fonts ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ===== ملفات التنسيق - Stylesheets ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== أيقونة الموقع - Favicon ===== -->
+    <link rel="icon" type="image/png" href="assets/images/school-logo.jpg">
+</head>
+
+<body>
+    <!-- ===== رابط تخطي للمحتوى - Skip Link ===== -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- ===== الهيدر والتنقل - Header & Navigation ===== -->
+    <!-- ===== Loading Spinner ===== -->
+    <div class="loader" id="pageLoader">
+        <div class="loader-spinner"></div>
+        <p class="loader-text">جاري التحميل...</p>
+    </div>
+
+    <header class="header">
+        <nav class="navbar container">
+            <!-- الشعار - Logo -->
+            <div class="logo">
+                <img src="assets/images/school-logo.jpg" alt="شعار مدرسة الفيوم الثانوية للبنات">
+                <span class="logo-text">مدرسة الفيوم الثانوية للبنات</span>
+            </div>
+
+            <!-- قائمة التنقل - Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="about.html" class="nav-link">عن المدرسة</a></li>
+                <li><a href="departments.html" class="nav-link">الأقسام</a></li>
+                <li><a href="teachers.html" class="nav-link">المعلمون</a></li>
+                <li><a href="student.html" class="nav-link">معلومات الطالب</a></li>
+                <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+            </ul>
+
+            <!-- زر القائمة للجوال - Mobile Menu Button -->
+            <button class="mobile-menu-toggle" aria-label="فتح القائمة">☰</button>
+        </nav>
+    </header>
+
+    <!-- ===== المحتوى الرئيسي - Main Content ===== -->
+    <main id="main-content">
+        <!-- ===== عنوان الصفحة - Page Header ===== -->
+        <section class="page-header">
+            <div class="container">
+                <h1>اتصل بنا</h1>
+                <p>نحن هنا للإجابة على جميع استفساراتك واستقبال ملاحظاتك</p>
+            </div>
+        </section>
+
+        <!-- ===== معلومات الاتصال - Contact Information ===== -->
+        <section class="contact-info container">
+            <div class="grid grid-3">
+                <div class="card text-center">
+                    <h3 class="card-title">📍 العنوان</h3>
+                    <p class="card-text">ش بطل السلام بجوار مديرية التربية والتعليم</p>
+                    <p class="card-text">الرمز البريدي: 12345</p>
+                </div>
+
+                <div class="card text-center">
+                    <h3 class="card-title">📞 الهاتف</h3>
+                    <p class="card-text">الرئيسي: +966 12 345 6789</p>
+                    <p class="card-text">الإدارة: +966 12 345 6790</p>
+                    <p class="card-text">الاستقبال: +966 12 345 6791</p>
+                </div>
+
+                <div class="card text-center">
+                    <h3 class="card-title">✉️ البريد الإلكتروني</h3>
+                    <p class="card-text">info@almithal-school.com</p>
+                    <p class="card-text">admissions@almithal-school.com</p>
+                    <p class="card-text">admin@almithal-school.com</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== نموذج الاتصال - Contact Form ===== -->
+        <section class="contact-form-section container">
+            <div class="grid grid-2">
+                <!-- نموذج الاتصال - Contact Form -->
+                <div class="card">
+                    <h2 class="card-title">أرسل لنا رسالة</h2>
+                    <form id="contactForm" class="contact-form">
+                        <!-- الاسم - Name -->
+                        <div class="form-group">
+                            <label for="name" class="form-label">الاسم الكامل *</label>
+                            <input type="text" id="name" name="name" class="form-input" required
+                                placeholder="أدخل اسمك الكامل" minlength="2">
+                        </div>
+
+                        <!-- البريد الإلكتروني - Email -->
+                        <div class="form-group">
+                            <label for="email" class="form-label">البريد الإلكتروني *</label>
+                            <input type="email" id="email" name="email" class="form-input" required
+                                placeholder="example@email.com">
+                        </div>
+
+                        <!-- رقم الهاتف - Phone -->
+                        <div class="form-group">
+                            <label for="phone" class="form-label">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+201 5XXXXXXXX">
+                        </div>
+
+                        <!-- الموضوع - Subject -->
+                        <div class="form-group">
+                            <label for="subject" class="form-label">الموضوع *</label>
+                            <select id="subject" name="subject" class="form-select" required>
+                                <option value="">اختر الموضوع</option>
+                                <option value="admission">القبول والتسجيل</option>
+                                <option value="academic">الشؤون الأكاديمية</option>
+                                <option value="administrative">الشؤون الإدارية</option>
+                                <option value="financial">الشؤون المالية</option>
+                                <option value="transportation">النقل المدرسي</option>
+                                <option value="activities">الأنشطة اللاصفية</option>
+                                <option value="complaint">شكوى أو اقتراح</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+
+                        <!-- الرسالة - Message -->
+                        <div class="form-group">
+                            <label for="message" class="form-label">الرسالة *</label>
+                            <textarea id="message" name="message" class="form-textarea" required
+                                placeholder="اكتب رسالتك هنا..." minlength="10"></textarea>
+                        </div>
+
+                        <!-- زر الإرسال - Submit Button -->
+                        <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                    </form>
+                </div>
+
+                <!-- معلومات إضافية - Additional Information -->
+                <div class="card">
+                    <h2 class="card-title">معلومات إضافية</h2>
+
+                    <!-- ساعات العمل - Working Hours -->
+                    <div class="mb-md">
+                        <h3 class="card-title">ساعات العمل</h3>
+                        <div class="card-text">
+                            <p><strong>الدوام الرسمي:</strong></p>
+                            <p>الأحد - الخميس: 7:30 صباحاً - 2:30 مساءً</p>
+                            <p><strong>مكتب الاستقبال:</strong></p>
+                            <p>7:00 صباحاً - 3:00 مساءً</p>
+                            <p><strong>العطلة الأسبوعية:</strong> الجمعة والسبت</p>
+                        </div>
+                    </div>
+
+                    <!-- أقسام المدرسة - School Departments -->
+                    <div class="mb-md">
+                        <h3 class="card-title">أقسام المدرسة</h3>
+                        <div class="card-text">
+                            <p><strong>الإدارة العامة:</strong> 101</p>
+                            <p><strong>شؤون الطلاب:</strong> 102</p>
+                            <p><strong>الشؤون الأكاديمية:</strong> 103</p>
+                            <p><strong>الشؤون المالية:</strong> 104</p>
+                            <p><strong>المرشد الطلابي:</strong> 105</p>
+                        </div>
+                    </div>
+
+                    <!-- وسائل التواصل الاجتماعي - Social Media -->
+                    <div>
+                        <h3 class="card-title">تابعنا على</h3>
+                        <div class="card-text">
+                            <p>📱 <strong>واتساب:</strong> +966 12 345 6789</p>
+                            <p>📘 <strong>فيسبوك:</strong> /almithalschool</p>
+                            <p>📷 <strong>إنستغرام:</strong> @almithal_school</p>
+                            <p>🐦 <strong>تويتر:</strong> @almithalschool</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--الخريطة -->
+        
+        <section class="map-section container">
+    <h2 class="text-center mb-lg">موقع المدرسة</h2>
+
+    <div class="map-container">
+        <!-- خريطة جوجل - Google Maps -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3466.334164888997!2d30.840025075696418!3d29.30461325272455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145995637a8f0233%3A0x6302dd97c28578f3!2z2YXYs9is2K8g2KfZhNiq2YrZiNmGINmF2YTZhNin2K3YqSDZhdmGINmI2KfZhNin2YXZig!5e0!3m2!1sar!2seg!4v1731942600000!5m2!1sar!2seg"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="موقع مدرسة الفيوم الثانوية بنات على الخريطة">
+        </iframe>
+    </div>
+</section>
+
+
+        <!-- ===== الأسئلة الشائعة - FAQ ===== -->
+        <section class="faq-section container">
+            <h2 class="text-center mb-lg">الأسئلة الشائعة</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3 class="card-title">متى تبدأ عملية التسجيل؟</h3>
+                    <p class="card-text">
+                        تبدأ عملية التسجيل للعام الدراسي الجديد في شهر أبريل من كل عام، وتستمر حتى نهاية شهر مايو.
+                        نوصي بالتقديم المبكر لضمان الحصول على مقعد.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">ما هي الرسوم الدراسية؟</h3>
+                    <p class="card-text">
+                        الرسوم الدراسية تختلف حسب المرحلة الدراسية. للحصول على معلومات دقيقة حول الرسوم،
+                        يرجى التواصل مع إدارة القبول عبر الهاتف أو البريد الإلكتروني.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">هل توفرون خدمة النقل المدرسي؟</h3>
+                    <p class="card-text">
+                        نعم، نوفر خدمة النقل المدرسي إلى معظم مناطق المدينة.
+                        توجد رسوم إضافية لهذه الخدمة حسب المسافة.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">ما هي اللغات التي تُدرَّس في المدرسة؟</h3>
+                    <p class="card-text">
+    تعتمد المدرسة على اللغة العربية كلغة أساسية في التعليم، 
+    مع تدريس اللغة الإنجليزية كمادة أساسية. 
+    كما توفر المدرسة لطلاب المرحلة الثانوية فرصة دراسة لغة ثانية 
+    يختارونها بين اللغة الفرنسية أو اللغة الألمانية.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">هل يوجد برنامج غذائي للطلاب؟</h3>
+                    <p class="card-text">
+                        نعم، نوفر خدمة الوجبات المدرسية الصحية في المقصف المدرسي،
+                        مع خيارات متنوعة تناسب جميع الأذواق والاحتياجات الغذائية.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">كيف يمكنني متابعة أداء ابني الأكاديمي؟</h3>
+                    <p class="card-text">
+                        نوفر نظام إلكتروني يسمح للأهالي بمتابعة أداء أبنائهم،
+                        بالإضافة إلى اجتماعات دورية مع المعلمين وإدارة المدرسة.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== الفوتر - Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- معلومات الاتصال - Contact Info -->
+                <div class="footer-section">
+                    <h4>معلومات الاتصال</h4>
+                   <p>📍ش بطل السلام بجوار مديرية التربية والتعليم </p>
+                    <p>📞+201090673361 </p>
+                    <p>✉️ info@almithal-school.com</p>
+                </div>
+
+                <!-- روابط سريعة - Quick Links -->
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="about.html">عن المدرسة</a></li>
+                        <li><a href="departments.html">الأقسام</a></li>
+                        <li><a href="teachers.html">المعلمون</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <!-- ساعات العمل - Working Hours -->
+                <div class="footer-section">
+                    <h4>ساعات العمل</h4>
+                    <p>الأحد - الخميس: 7:30 ص - 2:30 م</p>
+                    <p>الجمعة: إجازة</p>
+                    <p>السبت: إجازة</p>
+                </div>
+            </div>
+
+            <!-- حقوق النشر - Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 مدرسة الفيوم الثانوية للبنات. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+
+        
+    </footer>
+
+    <!-- ===== ملف الجافاسكريبت - JavaScript File ===== -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

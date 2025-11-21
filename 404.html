@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- ===== معلومات الصفحة الأساسية - Page Information ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="الصفحة غير موجودة - مدرسة الفيوم الثانوية للبنات">
+    <meta name="keywords" content="خطأ 404، الصفحة غير موجودة، مدرسة الفيوم الثانوية للبنات">
+    <meta name="author" content="مدرسة الفيوم الثانوية للبنات">
+
+    <!-- ===== عنوان الصفحة - Page Title ===== -->
+    <title>الصفحة غير موجودة - مدرسة الفيوم الثانوية للبنات</title>
+
+    <!-- ===== الخطوط الخارجية - External Fonts ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ===== ملفات التنسيق - Stylesheets ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== أيقونة الموقع - Favicon ===== -->
+    <link rel="icon" type="image/png" href="assets/images/school-logo.png">
+
+    <!-- ===== تنسيقات خاصة بصفحة 404 - 404 Page Specific Styles ===== -->
+    <style>
+        .error-page {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: var(--spacing-lg) 0;
+        }
+
+        .error-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .error-icon {
+            font-size: 6rem;
+            margin-bottom: var(--spacing-md);
+            color: var(--primary-color);
+        }
+
+        .error-title {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-dark);
+        }
+
+        .error-description {
+            font-size: 1.25rem;
+            margin-bottom: var(--spacing-lg);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .error-actions {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .error-suggestions {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .error-suggestions h3 {
+            margin-bottom: var(--spacing-sm);
+            color: var(--primary-color);
+        }
+
+        .suggestions-list {
+            display: flex;
+            gap: var(--spacing-sm);
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 0;
+        }
+
+        .suggestions-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+            padding: var(--spacing-xs) var(--spacing-sm);
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            transition: all 0.3s ease;
+        }
+
+        .suggestions-list a:hover {
+            background-color: var(--primary-color);
+            color: var(--text-white);
+            border-color: var(--primary-color);
+        }
+
+        @media (max-width: 600px) {
+            .error-title {
+                font-size: 2rem;
+            }
+
+            .error-icon {
+                font-size: 4rem;
+            }
+
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- ===== رابط تخطي للمحتوى - Skip Link ===== -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- ===== الهيدر والتنقل - Header & Navigation ===== -->
+    <header class="header">
+        <nav class="navbar container">
+            <!-- الشعار - Logo -->
+            <div class="logo">
+                <img src="assets/images/school-logo.png" alt="شعار مدرسة الفيوم الثانوية للبنات">
+                <span class="logo-text">مدرسة الفيوم الثانوية للبنات</span>
+            </div>
+
+            <!-- قائمة التنقل - Navigation Menu -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">الرئيسية</a></li>
+                <li><a href="about.html" class="nav-link">عن المدرسة</a></li>
+                <li><a href="departments.html" class="nav-link">الأقسام</a></li>
+                <li><a href="teachers.html" class="nav-link">المعلمون</a></li>
+                <li><a href="student.html" class="nav-link">معلومات الطالب</a></li>
+                <li><a href="contact.html" class="nav-link">اتصل بنا</a></li>
+            </ul>
+
+            <!-- زر القائمة للجوال - Mobile Menu Button -->
+            <button class="mobile-menu-toggle" aria-label="فتح القائمة">☰</button>
+        </nav>
+    </header>
+
+    <!-- ===== المحتوى الرئيسي - Main Content ===== -->
+    <main id="main-content">
+        <!-- ===== قسم الخطأ - Error Section ===== -->
+        <section class="error-page">
+            <div class="error-content">
+                <!-- أيقونة الخطأ - Error Icon -->
+                <div class="error-icon" aria-hidden="true">🔍</div>
+
+                <!-- عنوان الخطأ - Error Title -->
+                <h1 class="error-title">الصفحة غير موجودة</h1>
+
+                <!-- وصف الخطأ - Error Description -->
+                <p class="error-description">
+                    عذراً! الصفحة التي تبحث عنها غير موجودة أو تم نقلها.
+                    قد يكون هناك خطأ في العنوان أو أن الصفحة لم تعد متاحة.
+                </p>
+
+                <!-- أزرار الإجراءات - Action Buttons -->
+                <div class="error-actions">
+                    <a href="index.html" class="btn btn-primary">العودة للرئيسية</a>
+                    <a href="javascript:history.back()" class="btn btn-secondary">الصفحة السابقة</a>
+                </div>
+
+                <!-- اقتراحات الصفحات - Page Suggestions -->
+                <div class="error-suggestions">
+                    <h3>ربما كنت تبحث عن:</h3>
+                    <ul class="suggestions-list">
+                        <li><a href="index.html">الصفحة الرئيسية</a></li>
+                        <li><a href="about.html">عن المدرسة</a></li>
+                        <li><a href="departments.html">الأقسام</a></li>
+                        <li><a href="teachers.html">المعلمون</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== نموذج البحث - Search Form ===== -->
+        <section class="search-help container">
+            <div class="card">
+                <h2 class="card-title">هل تحتاج إلى مساعدة في البحث؟</h2>
+                <p class="card-text">
+                    إذا لم تجد ما تبحث عنه، يمكنك استخدام روابط التنقل الرئيسية أعلاه،
+                    أو التواصل معنا مباشرة عبر صفحة الاتصال.
+                </p>
+
+                <!-- نموذج بحث بسيط - Simple Search Form -->
+                <form class="search-form" onsubmit="return false;">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="ابحث في الموقع..." id="searchInput">
+                        <button type="button" class="search-btn" onclick="performSearch()">🔍</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- ===== معلومات التواصل - Contact Information ===== -->
+        <section class="quick-contact container">
+            <div class="grid grid-3">
+                <div class="card text-center">
+                    <h3 class="card-title">📞 هاتف</h3>
+                    <p class="card-text">+966 12 345 6789</p>
+                    <p class="card-text">متاح 24/7 للطوارئ</p>
+                </div>
+
+                <div class="card text-center">
+                    <h3 class="card-title">✉️ بريد</h3>
+                    <p class="card-text">info@almithal-school.com</p>
+                    <p class="card-text">نرد خلال 24 ساعة</p>
+                </div>
+
+                <div class="card text-center">
+                    <h3 class="card-title">🕒 الوقت</h3>
+                    <p class="card-text">الأحد - الخميس</p>
+                    <p class="card-text">7:30 ص - 2:30 م</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== الفوتر - Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- معلومات الاتصال - Contact Info -->
+                <div class="footer-section">
+                    <h4>معلومات الاتصال</h4>
+                    <p>📍 شارع التعليم، حي المثال، المدينة</p>
+                    <p>📞 +966 12 345 6789</p>
+                    <p>✉️ info@almithal-school.com</p>
+                </div>
+
+                <!-- روابط سريعة - Quick Links -->
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="about.html">عن المدرسة</a></li>
+                        <li><a href="departments.html">الأقسام</a></li>
+                        <li><a href="contact.html">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <!-- ساعات العمل - Working Hours -->
+                <div class="footer-section">
+                    <h4>ساعات العمل</h4>
+                    <p>الأحد - الخميس: 7:30 ص - 2:30 م</p>
+                    <p>الجمعة: إجازة</p>
+                    <p>السبت: إجازة</p>
+                </div>
+            </div>
+
+            <!-- حقوق النشر - Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 مدرسة الفيوم الثانوية للبنات. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+
+        <!-- ===== معلومات الطالب - Student Information ===== -->
+        <div class="student-info">
+            <p><strong>معلومات الطالب:</strong> أحمد محمد أحمد | <strong>الرقم الجامعي:</strong> 202512345 |
+                <strong>الفصل:</strong> أ | <strong>المشرف:</strong> د. محمد عبد الله، قسم علوم الحاسب
+            </p>
+        </div>
+    </footer>
+
+    <!-- ===== ملف الجافاسكريبت - JavaScript File ===== -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ===== سكربت إضافي لصفحة 404 - Additional 404 Script ===== -->
+    <script>
+        // وظيفة البحث البسيطة - Simple Search Function
+        function performSearch() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+
+            if (searchTerm === '') {
+                alert('يرجى إدخال كلمة البحث');
+                return;
+            }
+
+            // قائمة الكلمات المفتاحية والصفحات المقابلة - Keywords and corresponding pages
+            const searchIndex = {
+                'الرئيسية': 'index.html',
+                'الصفحة الرئيسية': 'index.html',
+                'home': 'index.html',
+                'عن المدرسة': 'about.html',
+                'عن': 'about.html',
+                'الرسالة': 'about.html',
+                'الرؤية': 'about.html',
+                'الأقسام': 'departments.html',
+                'الاقسام': 'departments.html',
+                'المرحلة الابتدائية': 'departments.html',
+                'المرحلة المتوسطة': 'departments.html',
+                'المرحلة الثانوية': 'departments.html',
+                'رياض الأطفال': 'departments.html',
+                'المعلمون': 'teachers.html',
+                'المعلمين': 'teachers.html',
+                'الهيئة التدريسية': 'teachers.html',
+                'teachers': 'teachers.html',
+                'اتصل بنا': 'contact.html',
+                'تواصل': 'contact.html',
+                'اتصال': 'contact.html',
+                'contact': 'contact.html',
+                'معلومات الطالب': 'student.html',
+                'الطالب': 'student.html',
+                'المشروع': 'student.html'
+            };
+
+            // البحث عن الكلمة المفتاحية - Search for keyword
+            let found = false;
+            for (const keyword in searchIndex) {
+                if (keyword.toLowerCase().includes(searchTerm) || searchTerm.includes(keyword.toLowerCase())) {
+                    if (confirm(`هل تقصد "${keyword}"؟`)) {
+                        window.location.href = searchIndex[keyword];
+                        found = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!found) {
+                alert('لم يتم العثور على نتائج. يرجى المحاولة بكلمات مختلفة.');
+            }
+        }
+
+        // السماح بالبحث باستخدام Enter - Allow search with Enter key
+        document.getElementById('searchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                performSearch();
+            }
+        });
+
+        // تسجيل الخطأ في وحدة التحكم - Log error to console
+        console.log('Error 404: Page not found - ' + window.location.href);
+
+        // إحصائية بسيطة للصفحات غير الموجودة - Simple 404 tracking
+        if (localStorage) {
+            let errorCount = localStorage.getItem('404_errors') || 0;
+            errorCount = parseInt(errorCount) + 1;
+            localStorage.setItem('404_errors', errorCount);
+            console.log('Total 404 errors for this user: ' + errorCount);
+        }
+    </script>
+</body>
+
+</html>
